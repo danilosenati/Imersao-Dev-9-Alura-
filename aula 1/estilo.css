@@ -19,7 +19,8 @@ body {
   
   /* Container with the background image */
   .container {
-    background: url('https://i.postimg.cc/TY28jTqJ/bg4-ia.jpg') no-repeat center center/cover;
+    background: url("../imagens/poverty-4561704_1280.jpg") no-repeat center center/cover;
+     /* Imagem de <a href="https://pixabay.com/pt/users/frantisek_krejci-810589/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4561704">Frantisek Krejci</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4561704">Pixabay</a> */
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -59,3 +60,5 @@ body {
     padding: 10px;
   }
   
+
+ 
