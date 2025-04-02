@@ -1,9 +1,20 @@
+/*
 valorWons = prompt("Digite um valor em wons: ");
-// alert(valorWons);
 
 cotacaoWons = 0.0040;
 
 valorConvertido = valorWons*cotacaoWons;
 
+alert("R$: " + valorConvertido);
+*/
+
 // Para converter em Real.
-alert(cotacaoWons);
+// alert(valorConvertido);
+
+function conversor(){
+    valorWons = prompt("Digite um valor em wons: ");
+    cotacaoWons = 0.0040;
+    
+    valorConvertido = valorWons*cotacaoWons;
+    alert("R$: " + valorConvertido);
+}
