@@ -52,7 +52,7 @@ function jogar() {
             alert("Jogador venceu!, escolheu tesoura");
         }
         // VERIFICANDO SE FOI DIGITADO UM NÚMERO INVALIDO
-        else {
+        if(opcao <= 0 && opcao > 3) {
             alert("Número digitado invalido");
         }
 
