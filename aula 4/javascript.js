@@ -1,7 +1,18 @@
-let rodada = 1;
-resultado = 0; // SE FOR 1 , PERDEU. SE FOR 0, GANHOU.
+/**TAREFAS:
+ * 
+ * 1° - CRIAR UM LISTA COM 3 JOGADORES;
+ * 2° - CALCULAR A FORÇA DE CADA JOGADOR, E DEPOIS SOMAR PARA SABER A FORÇA DO TIME;
+ * 3º - CALCULAR A FORÇA DE CADA JOGADOR DO TIME DO  JOGADOR;
+ * 4° - COMPARAR OS DOIS TIMES PARA SABER QUEM VENCEU
+ */
 
-for(rodada = 1; rodada <= 3; rodada++){
-    escolhaJogador = prompt("Nível " + rodada + ": Escolha um vidro (1, 2, 3)");
-    pisoQuebrado = Math.floor(Math.random() * 3 +1);
- }
+// 1° - CRIAR UM LISTA COM 3 JOGADORES:
+    personagensUsuario = ["", "", ""]; // JOGADORES DO USUARIO.
+
+    persornagensComputador  = ["", "", ""]; // JOGADORES DO COMPUTADOR.
+
+    // 2° - CALCULAR A FORÇA DE CADA JOGADOR, E DEPOIS SOMAR PARA SABER A FORÇA DO TIME;
+    forcaPersonagensUsuario = 0;
+    forcaPersonagensComputador = 0;
+    
+    
