@@ -15,7 +15,7 @@
     forcaPersonagensUsuario = 0;
     forcaPersonagensComputador = 0;
     
-    
+    // POPULANDO A LISTA DE JOGADORES DO USUÁRIO:
     for(let i = 0; i < 3; i++){
         escolhaPersonagensUsuario = prompt("Digite o nome do seu " + (i+1) + "º personagem");
         personagensUsuario[i] = escolhaPersonagensUsuario;
@@ -23,6 +23,7 @@
 
     console.log("Personagens do usuário: " + personagensUsuario);
 
+    // POPULANDO A LSITA DE PERSONAGENS DO COMPUTADOR:
     for(let i = 1; i < 3; i++ ){
         indiceAleatorio = Math.floor(Math.random() * 10);
         
