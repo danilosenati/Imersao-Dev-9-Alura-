@@ -21,10 +21,14 @@
         personagensUsuario[i] = escolhaPersonagensUsuario;
     }
 
-    console.log("Personagens do usuário: " + personagensUsuario);
+    alert("Personagens do usuário: " + personagensUsuario);
 
     // POPULANDO A LSITA DE PERSONAGENS DO COMPUTADOR:
-    for(let i = 1; i < 3; i++ ){
-        indiceAleatorio = Math.floor(Math.random() * 10);
-        
+    for(let i = 0; i < 3; i++ ){
+        indiceAleatorio = Math.floor(Math.random() * 10); // CRIANDO INDICES ALEATORIOS
+        viloesAleatorios =["Nazgul", "Coringa", "Dart Vader", "Dracula", "Lula","Valdemort", "Lampião", "Gollun","Sauron", "Morgoth"];
+        persornagensComputador[i] = viloesAleatorios[indiceAleatorio];
+
     }
+    alert(persornagensComputador);
+        
