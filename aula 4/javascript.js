@@ -7,7 +7,7 @@
  */
 
 // 1° - CRIAR UM LISTA COM 3 JOGADORES:
-    personagensUsuario = ["", "", ""]; // JOGADORES DO USUARIO.
+    personagensUsuario = ["" , "" , ""]; // JOGADORES DO USUARIO.
 
     persornagensComputador  = ["", "", ""]; // JOGADORES DO COMPUTADOR.
 
@@ -16,3 +16,14 @@
     forcaPersonagensComputador = 0;
     
     
+    for(let i = 0; i < 3; i++){
+        escolhaPersonagensUsuario = prompt("Digite o nome do seu " + (i+1) + "º personagem");
+        personagensUsuario[i] = escolhaPersonagensUsuario;
+    }
+
+    console.log("Personagens do usuário: " + personagensUsuario);
+
+    for(let i = 1; i < 3; i++ ){
+        indiceAleatorio = Math.floor(Math.random() * 10);
+        
+    }
