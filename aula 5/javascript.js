@@ -2,7 +2,7 @@
 
 
 // PARTE 2: Pegando os elementos do HTML
-const perguntaElemento = document.querySelector(".pergunta");
+const perguntaElemento = document.querySelector(".pergunta"); //.pergunta == classe pergunta
 const respostasElemento = document.querySelector(".respostas");
 const progressoElemento = document.querySelector(".progresso");
 const textoFinal = document.querySelector(".fim span");
