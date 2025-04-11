@@ -11,8 +11,13 @@ const perguntas = [{
     ]
 },
 {
-    "pergunta": "2. Em Batman: O Cavaleiro das Trevas (2008), quem interpretou o Coringa?",
-    "resposta":
+    "pergunta": "2. Qual é o nome do primeiro Robin, parceiro do Batman?",
+    "resposta": [
+        {"opcao": "Jason Todd", "correto": false },
+        {"opcao": "Dick Grayson", "correto": true},
+        {"opcao": "Tim Drake", "correto": false},
+        {"opcao": "Damian Wayne", "correto": false}
+    ]
 }
 ];
 
